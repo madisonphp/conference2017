@@ -1,0 +1,142 @@
+body {
+    background: #fff;
+}
+
+a {
+    color: #b70610;
+}
+
+a:hover, a:focus {
+    color: #b70610;
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4 {
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+.nobr {
+    white-space:nowrap;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #b70610;
+    background-color: #000;
+}
+
+.container {
+    max-width: 970px;
+}
+
+.text-center .img-responsive {
+    margin: 0 auto;
+}
+
+.jumbotron
+{
+    background: url(../images/madison-skyline.jpg) 0px -310px;
+    background-size: cover;
+    border-bottom: 5px solid #b70610;
+    color: #fff;
+    height: 280px;
+    padding: 40px 0px 0px 0px;
+}
+
+h2.header_date {
+    margin: -35px 0px 22px 50px;
+    width: auto;
+    font-size: 1.4em;
+    font-weight: normal;
+    text-align: center;
+    line-height: 1.3;
+}
+
+.sponsor-page-images {
+    display: inline-block;
+    padding: 30px 20px;
+}
+
+#horizontal-sponsors {
+    margin: -40px 0px 20px 0px;
+    padding: 0px 5px 10px 35px;
+    border-bottom: 1px dashed #b70610;
+}
+
+#horizontal-sponsors img {
+    padding: 0px 20px 8px 0px;
+}
+
+.sponsor-header-bronze, .sponsor-header-silver, .sponsor-header-partner {
+    display: inline;
+}
+
+footer {
+    margin-bottom: 30px;
+}
+
+
+/*Schedule*/
+.schedule-list{background-color:#fff;border-bottom:dotted 1px #b70610; clear: both;}
+.schedule-list.odd{background-color:#ddd;}
+.schedule-list .day{width: 80px;float: left;display: inline;margin-right: 0px;}
+.schedule-list .day div, .schedule-list .time div, .schedule-list .details div{padding:15px; font-size: 1em;}
+.schedule-list .time{width: 220px;float: left;display: inline;margin-left: 20px;margin-right: 0px;}
+.schedule-list .details{width: 600px;float: left;display: inline;margin-left: 20px;margin-right: 0px;}
+#schedule .terms{font-size:11px;margin-top:10px;}
+.schedule-list .clear{clear:both;}
+.schedule-list h6 {font-size: 1.2em;}
+
+.schedule-list .time .time-row, .schedule-list .details .details-row {min-height: 84px;}
+
+
+table.schedule {
+    text-align: center;
+}
+
+table.schedule td {
+    width: 20%;
+    padding: 10px 5px;
+}
+
+table.schedule td.room1 {
+    background: #caf9cc;
+    color: #00000;
+}
+table.schedule td.room2 {
+    background: #dcc5fe;
+    color: #00000;
+}
+table.schedule td.room3 {
+    background: #fefbc4;
+    color: #00000;
+}
+table.schedule td.room4 {
+    background: #99ccfc;
+    color: #00000;
+}
+table.schedule td.room5 {
+    background: #812e80;
+    color: #FFFFFF;
+}
+table.schedule td.room6 {
+    background: #b82f26;
+    color: #FFFFFF;
+}
+
+table.schedule td a {
+    font-weight: bolder;
+}
+
+.btn-red {
+    background: #b70610;
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 2em;
+    padding: 5px 25px;
+}
+.btn-highlight {
+    border: 2px solid #0000FF;
+}
