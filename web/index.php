@@ -17,6 +17,8 @@ $app->register(new Silex\Provider\TwigServiceProvider(), array(
     'twig.path' => __DIR__ . '/../views',
 ));
 
+$app['conference_year'] = "2017";
+
 $published_menu = array(
     'Home' => '/',
 //    'Schedule' => '/schedule/',
@@ -409,6 +411,7 @@ $app->get('/', function() use($app) {
         'nav' => $app['nav'],
         'sponsors' => $app['sponsors'],
         'active' => 'Home',
+        'conference_year' => $app['conference_year'],
     ));
 });
 
@@ -419,6 +422,7 @@ $app->get('/schedule/', function() use($app) {
         'talks' => $app['talks'],
         'sponsors' => $app['sponsors'],
         'active' => 'Schedule',
+        'conference_year' => $app['conference_year'],
     ));
 });
 
@@ -429,6 +433,7 @@ $app->get('/speakers/', function() use($app) {
         'talks' => $app['talks'],
         'sponsors' => $app['sponsors'],
         'active' => 'Speakers',
+        'conference_year' => $app['conference_year'],
     ));
 });
 
@@ -438,6 +443,7 @@ $app->get('/venue/', function() use($app) {
         'nav' => $app['nav'],
         'sponsors' => $app['sponsors'],
         'active' => 'Venue',
+        'conference_year' => $app['conference_year'],
     ));
 });
 
@@ -447,6 +453,7 @@ $app->get('/hotel/', function() use($app) {
         'nav' => $app['nav'],
         'sponsors' => $app['sponsors'],
         'active' => 'Hotel',
+        'conference_year' => $app['conference_year'],
     ));
 });
 
@@ -456,6 +463,7 @@ $app->get('/sponsors/', function() use($app) {
         'nav' => $app['nav'],
         'sponsors' => $app['sponsors'],
         'active' => 'Sponsors',
+        'conference_year' => $app['conference_year'],
     ));
 });
 
@@ -465,6 +473,7 @@ $app->get('/expect/', function() use($app) {
         'nav' => $app['nav'],
         'sponsors' => $app['sponsors'],
         'active' => 'What to Expect',
+        'conference_year' => $app['conference_year'],
     ));
 });
 
@@ -474,6 +483,7 @@ $app->get('/organizers/', function() use($app) {
         'nav' => $app['nav'],
         'sponsors' => $app['sponsors'],
         'active' => 'Organizers',
+        'conference_year' => $app['conference_year'],
     ));
 });
 
@@ -483,6 +493,7 @@ $app->get('/tickets/', function() use($app) {
         'nav' => $app['nav'],
         'sponsors' => $app['sponsors'],
         'active' => 'Tickets',
+        'conference_year' => $app['conference_year'],
     ));
 });
 
@@ -492,6 +503,7 @@ $app->get('/conduct/', function() use($app) {
         'nav' => $app['nav'],
         'sponsors' => $app['sponsors'],
         'active' => 'Code of Conduct',
+        'conference_year' => $app['conference_year'],
     ));
 });
 
@@ -501,6 +513,7 @@ $app->get('/conference_map/', function() use($app) {
         'nav' => $app['nav'],
         'sponsors' => $app['sponsors'],
         'active' => 'Conference Map',
+        'conference_year' => $app['conference_year'],
     ));
 });
 
@@ -511,7 +524,7 @@ $app->get('/talks/TA1/', function() use($app) {
         'active' => 'Schedule',
         'sponsors' => $app['sponsors'],
         'talk' => $app['talks']['TA1'],
-
+        'conference_year' => $app['conference_year'],
     ));
 });
 $app->get('/talks/TA2/', function() use($app) {
@@ -520,7 +533,7 @@ $app->get('/talks/TA2/', function() use($app) {
         'active' => 'Schedule',
         'sponsors' => $app['sponsors'],
         'talk' => $app['talks']['TA2'],
-
+        'conference_year' => $app['conference_year'],
     ));
 });
 $app->get('/talks/TB1/', function() use($app) {
@@ -529,7 +542,7 @@ $app->get('/talks/TB1/', function() use($app) {
         'active' => 'Schedule',
         'sponsors' => $app['sponsors'],
         'talk' => $app['talks']['TB1'],
-
+        'conference_year' => $app['conference_year'],
     ));
 });
 $app->get('/talks/TB2/', function() use($app) {
@@ -538,7 +551,7 @@ $app->get('/talks/TB2/', function() use($app) {
         'active' => 'Schedule',
         'sponsors' => $app['sponsors'],
         'talk' => $app['talks']['TB2'],
-
+        'conference_year' => $app['conference_year'],
     ));
 });
 
@@ -550,7 +563,7 @@ $app->get('/talks/A1/', function() use($app) {
         'active' => 'Schedule',
         'sponsors' => $app['sponsors'],
         'talk' => $app['talks']['A1'],
-
+        'conference_year' => $app['conference_year'],
     ));
 });
 $app->get('/talks/A2/', function() use($app) {
@@ -559,7 +572,7 @@ $app->get('/talks/A2/', function() use($app) {
         'sponsors' => $app['sponsors'],
         'active' => 'Schedule',
         'talk' => $app['talks']['A2'],
-
+        'conference_year' => $app['conference_year'],
     ));
 });
 $app->get('/talks/A3/', function() use($app) {
@@ -568,7 +581,7 @@ $app->get('/talks/A3/', function() use($app) {
         'sponsors' => $app['sponsors'],
         'active' => 'Schedule',
         'talk' => $app['talks']['A3'],
-
+        'conference_year' => $app['conference_year'],
     ));
 });
 $app->get('/talks/B1/', function() use($app) {
@@ -577,7 +590,7 @@ $app->get('/talks/B1/', function() use($app) {
         'sponsors' => $app['sponsors'],
         'active' => 'Schedule',
         'talk' => $app['talks']['B1'],
-
+        'conference_year' => $app['conference_year'],
     ));
 });
 $app->get('/talks/B2/', function() use($app) {
@@ -586,7 +599,7 @@ $app->get('/talks/B2/', function() use($app) {
         'sponsors' => $app['sponsors'],
         'active' => 'Schedule',
         'talk' => $app['talks']['B2'],
-
+        'conference_year' => $app['conference_year'],
     ));
 });
 $app->get('/talks/B3/', function() use($app) {
@@ -595,7 +608,7 @@ $app->get('/talks/B3/', function() use($app) {
         'sponsors' => $app['sponsors'],
         'active' => 'Schedule',
         'talk' => $app['talks']['B3'],
-
+        'conference_year' => $app['conference_year'],
     ));
 });
 $app->get('/talks/C1/', function() use($app) {
@@ -604,7 +617,7 @@ $app->get('/talks/C1/', function() use($app) {
         'sponsors' => $app['sponsors'],
         'active' => 'Schedule',
         'talk' => $app['talks']['C1'],
-
+        'conference_year' => $app['conference_year'],
     ));
 });
 $app->get('/talks/C2/', function() use($app) {
@@ -613,7 +626,7 @@ $app->get('/talks/C2/', function() use($app) {
         'sponsors' => $app['sponsors'],
         'active' => 'Schedule',
         'talk' => $app['talks']['C2'],
-
+        'conference_year' => $app['conference_year'],
     ));
 });
 $app->get('/talks/C3/', function() use($app) {
@@ -622,7 +635,7 @@ $app->get('/talks/C3/', function() use($app) {
         'sponsors' => $app['sponsors'],
         'active' => 'Schedule',
         'talk' => $app['talks']['C3'],
-
+        'conference_year' => $app['conference_year'],
     ));
 });
 $app->get('/talks/D1/', function() use($app) {
@@ -631,7 +644,7 @@ $app->get('/talks/D1/', function() use($app) {
         'sponsors' => $app['sponsors'],
         'active' => 'Schedule',
         'talk' => $app['talks']['D1'],
-
+        'conference_year' => $app['conference_year'],
     ));
 });
 $app->get('/talks/D2/', function() use($app) {
@@ -640,7 +653,7 @@ $app->get('/talks/D2/', function() use($app) {
         'sponsors' => $app['sponsors'],
         'active' => 'Schedule',
         'talk' => $app['talks']['D2'],
-
+        'conference_year' => $app['conference_year'],
     ));
 });
 $app->get('/talks/D3/', function() use($app) {
@@ -649,7 +662,7 @@ $app->get('/talks/D3/', function() use($app) {
         'sponsors' => $app['sponsors'],
         'active' => 'Schedule',
         'talk' => $app['talks']['D3'],
-
+        'conference_year' => $app['conference_year'],
     ));
 });
 $app->get('/talks/E1/', function() use($app) {
@@ -658,7 +671,7 @@ $app->get('/talks/E1/', function() use($app) {
         'sponsors' => $app['sponsors'],
         'active' => 'Schedule',
         'talk' => $app['talks']['E1'],
-
+        'conference_year' => $app['conference_year'],
     ));
 });
 $app->get('/talks/E2/', function() use($app) {
@@ -667,7 +680,7 @@ $app->get('/talks/E2/', function() use($app) {
         'sponsors' => $app['sponsors'],
         'active' => 'Schedule',
         'talk' => $app['talks']['E2'],
-
+        'conference_year' => $app['conference_year'],
     ));
 });
 $app->get('/talks/E3/', function() use($app) {
@@ -676,7 +689,7 @@ $app->get('/talks/E3/', function() use($app) {
         'sponsors' => $app['sponsors'],
         'active' => 'Schedule',
         'talk' => $app['talks']['E3'],
-
+        'conference_year' => $app['conference_year'],
     ));
 });
 $app->get('/talks/F1/', function() use($app) {
@@ -685,7 +698,7 @@ $app->get('/talks/F1/', function() use($app) {
         'sponsors' => $app['sponsors'],
         'active' => 'Schedule',
         'talk' => $app['talks']['F1'],
-
+        'conference_year' => $app['conference_year'],
     ));
 });
 $app->get('/talks/F2/', function() use($app) {
@@ -694,7 +707,7 @@ $app->get('/talks/F2/', function() use($app) {
         'sponsors' => $app['sponsors'],
         'active' => 'Schedule',
         'talk' => $app['talks']['F2'],
-
+        'conference_year' => $app['conference_year'],
     ));
 });
 $app->get('/talks/F3/', function() use($app) {
@@ -703,7 +716,7 @@ $app->get('/talks/F3/', function() use($app) {
         'sponsors' => $app['sponsors'],
         'active' => 'Schedule',
         'talk' => $app['talks']['F3'],
-
+        'conference_year' => $app['conference_year'],
     ));
 });
 $app->get('/talks/keynote/', function() use($app) {
@@ -712,7 +725,7 @@ $app->get('/talks/keynote/', function() use($app) {
         'sponsors' => $app['sponsors'],
         'active' => 'Schedule',
         'talk' => $app['talks']['keynote'],
-
+        'conference_year' => $app['conference_year'],
     ));
 });
 
