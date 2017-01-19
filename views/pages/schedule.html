@@ -14,6 +14,9 @@
     <div class="row">
 
         <div class="col-md-6 heading-text">
+
+            {% if talks.rooms_set == 'Yes' or talks.schedule_set == 'Yes' %}
+
             <div class="separator separator-title">
                 <h2 class="separator-mainheader color">Speakers</h2>
                 <span class="separator-subheader">We&#039;ve assembled a heroic lineup of speakers. You can read all about them on our <a href="/speakers">Speakers page</a>.</span>
@@ -21,13 +24,25 @@
 
             <p><strong>Don't forget to leave feedback for them on Joind.in:</strong><br><strong><a href="https://joind.in/event/madison-php-conference-2016">https://joind.in/event/madison-php-conference-2016</a></strong></p>
 
+            <div class="col-md-6 heading-text">
+                <p><a href="/conference_map"><img src="/assets/images/room_map_thumb.png" alt="Conference map"><br>View a map of the conference.</a></p>
+
+            {% else %}
+
+            <p>The schedule has not been set yet. Please check back for updates!</p>
+
+            {% endif %}
+
         </div>
 
-        <div class="col-md-6 heading-text">
-                <p><a href="/conference_map"><img src="/assets/images/room_map_thumb.png" alt="Conference map"><br>View a map of the conference.</a></p>
             </div>
         </div>
+
+    {% if talks.rooms_set == 'Yes' or talks.schedule_set == 'Yes' %}
+
     <h2 class="separator-mainheader color">Schedule</h2>
+
+    {% endif %}
 
     {% if talks.rooms_set == 'Yes' %}
 
