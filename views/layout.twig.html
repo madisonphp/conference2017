@@ -53,10 +53,10 @@
                 <a href="{{ sponsor.href }}"><img src="{{ sponsor.thumbnail }}" alt="{{ sponsor.name }}" class="img-responsive sponsor-header-gold"></a>
                 {% endfor %}
                 {% for sponsor in sponsors.silver %}
-                <div style="float: left;"><a href="{{ sponsor.href }}"><img src="{{ sponsor.thumbnail }}" alt="{{ sponsor.name }}" class="img-responsive sponsor-header-silver"></a></div>
+                <a href="{{ sponsor.href }}"><img src="{{ sponsor.thumbnail }}" alt="{{ sponsor.name }}" class="img-responsive sponsor-header-silver"></a>
                 {% endfor %}
                 {% for sponsor in sponsors.bronze %}
-                <a href="{{ sponsor.href }}"><img src="{{ sponsor.thumbnail }}" alt="{{ sponsor.name }}" class="img-responsive sponsor-header-silver" style="width: 130px;"></a>
+                <a href="{{ sponsor.href }}"><img src="{{ sponsor.thumbnail }}" alt="{{ sponsor.name }}" class="img-responsive sponsor-header-silver"></a>
                 {% endfor %}
                 <div style="clear: both;"></div>
             </div>
