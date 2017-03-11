@@ -65,11 +65,18 @@ $sponsors = array(
     ),
     'bronze' => array(
         array(
-            'name' => '',
-            'href' => '',
-            'img'  => '',
-            'thumbnail' => '',
-            'twitter' => '',
+            'name' => 'Snap Programming',
+            'href' => 'http://snapprogramming.com/',
+            'img'  => '/assets/images/sponsors/snapprogramming.png',
+            'thumbnail' => '/assets/images/sponsors/snapprogramming_thumb.png',
+            'twitter' => 'SnapProgramming',
+        ),
+        array(
+            'name' => 'Boberdoo',
+            'href' => 'https://www.boberdoo.com/',
+            'img'  => '/assets/images/sponsors/boberdoo.png',
+            'thumbnail' => '/assets/images/sponsors/boberdoo_thumb.png',
+            'twitter' => 'boberdoo',
         ),
     ),
     'scholarship' => array(
