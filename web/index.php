@@ -90,11 +90,11 @@ $sponsors = array(
     ),
     'community' => array(
         array(
-            'name' => '',
-            'href' => '',
-            'img'  => '',
-            'thumbnail' => '',
-            'twitter' => '',
+            'name' => 'php[architect]',
+            'href' => 'https://www.phparch.com/',
+            'img'  => '/assets/images/sponsors/phparch.png',
+            'thumbnail' => '/assets/images/sponsors/phparch_thumb.png',
+            'twitter' => 'phparch',
         ),
     ),
 );
