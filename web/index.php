@@ -78,6 +78,13 @@ $sponsors = array(
             'thumbnail' => '/assets/images/sponsors/boberdoo_thumb.png',
             'twitter' => 'boberdoo',
         ),
+        array(
+            'name' => 'Robert Half',
+            'href' => 'https://www.roberthalf.com/madison/technology-it',
+            'img'  => '/assets/images/sponsors/roberthalf.jpg',
+            'thumbnail' => '/assets/images/sponsors/roberthalf_thumb.jpg',
+            'twitter' => 'RobertHalfTech',
+        ),
     ),
     'scholarship' => array(
         array(
