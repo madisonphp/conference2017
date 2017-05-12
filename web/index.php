@@ -430,7 +430,7 @@ $talks = array(
         'tagline' => '',
         'talk_description' => 'In December 2015, PHP 7.0 was released, marking a new milestone for PHP and web application developers. Looking at the changelog and removed functions, we thought all was going to be easy to migrate to PHP 7.0. Unfortunately, many of the extensions and tools we use weren\'t ready yet. In December 2016, PHP 7.1 was released and the urgency to update became real as PHP 5.6 was nearing end-of-life. In this talk, I describe the analysis and the challenges we faced migrating towards PHP 7.1 so you can learn how to defeat those challenges if you plan to migrate too.',
         'talk_type' => 'talk',
-        'display_speaker' => 'no',
+        'display_speaker' => 'yes',
     ),
     'T22' => array(
         'speaker' => array (
@@ -460,7 +460,7 @@ $talks = array(
         'tagline' => '',
         'talk_description' => 'RegEx is scary. At least, if you ask Google, that\'s what you might think (257,000). And slow (441,000). In fact, regular expressions are neither of these, and indeed are a powerful tool in your utility belt. "RegEx Is Your Friend" will provide some real-world usable examples of how RegEx can be used in a way that\'s fast, explaining how the different parts of regular expressions work and execute to make it understandable for all. No matter if you don\'t know your \'$\' from your \'^\', you are not sure when to use RegEx (and when not to), or you just need to find a way to make your RegEx run faster, there will be useful help and tips for everyone.',
         'talk_type' => 'talk',
-        'display_speaker' => 'no',
+        'display_speaker' => 'yes',
     ),
 );
 
