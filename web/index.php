@@ -278,7 +278,7 @@ $talks = array(
         ),
         'title' => 'Browser Serving Your Web Application Security',
         'tagline' => '',
-        'talk_description' => 'One important concept in web application security is defense in depth. You protect your server, your network, your database and your application, but what about the user browser? Can it be done? Yes! Several new technologies and protocols to assist security has been added to the browsers. Several should be added, activated and configure from your web server or web page. In this presentation we will explore these technologies and learn how to use them. Youâ€™ll learn about the Robots meta tags (for crawlers indexing), Browsing Compatibility, XSS and Clickjaking Protection, SSL/TLS Control, and Content Security Policy.',
+        'talk_description' => 'One important concept in web application security is defense in depth. You protect your server, your network, your database and your application, but what about the user browser? Can it be done? Yes! Several new technologies and protocols to assist security has been added to the browsers. Several should be added, activated and configure from your web server or web page. In this presentation we will explore these technologies and learn how to use them. You\'ll learn about the Robots meta tags (for crawlers indexing), Browsing Compatibility, XSS and Clickjaking Protection, SSL/TLS Control, and Content Security Policy.',
         'talk_type' => 'talk',
         'display_speaker' => 'yes',
     ),
