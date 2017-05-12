@@ -15,7 +15,7 @@
 
         <div class="col-md-6 heading-text">
 
-            {% if talks.rooms_set == 'Yes' or talks.schedule_set == 'Yes' %}
+            {% if rooms_set == 'Yes' or schedule_set == 'Yes' %}
 
             <div class="separator separator-title">
                 <h2 class="separator-mainheader color">Speakers</h2>
@@ -38,13 +38,13 @@
             </div>
         </div>
 
-    {% if talks.rooms_set == 'Yes' or talks.schedule_set == 'Yes' %}
+    {% if rooms_set == 'Yes' or schedule_set == 'Yes' %}
 
     <h2 class="separator-mainheader color">Schedule</h2>
 
     {% endif %}
 
-    {% if talks.rooms_set == 'Yes' %}
+    {% if rooms_set == 'Yes' %}
 
     <p>Note: the colors on the schedule match the colors on the <a href="/conference_map">conference map</a>.</p>
 
@@ -225,7 +225,7 @@
     </table>
 
 
-    {% elseif talks.schedule_set == 'Yes' %}
+    {% elseif schedule_set == 'Yes' %}
     <div class="sixteen columns schedule-list even">
         <div class="day">
             <div>
@@ -471,12 +471,21 @@
             </div>
             <div class="details-row">
                 <h6>
-                    <a href="/talks/TB2">{{ talks.TB2.title }} (Part 1)</a><br>
-                    {% for speaker in talks.TB2.speaker %}
+                    <a href="/talks/TB2">{{ talks.T07.title }} (Part 1)</a><br>
+                    {% for speaker in talks.T07.speaker %}
                     {{ speaker.name }}<br>
                     {% endfor %}
                 </h6>
-                <p>{{ talks.TB2.tagline }}</p>
+                <p>{{ talks.T07.tagline }}</p>
+            </div>
+            <div class="details-row">
+                <h6>
+                    <a href="/talks/TB2">{{ talks.T18.title }} (Part 1)</a><br>
+                    {% for speaker in talks.T18.speaker %}
+                    {{ speaker.name }}<br>
+                    {% endfor %}
+                </h6>
+                <p>{{ talks.T18.tagline }}</p>
             </div>
 
         </div>
