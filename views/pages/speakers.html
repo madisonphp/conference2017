@@ -16,6 +16,7 @@
 <hr>
 {% for key, talkSlot in talks %}
 
+    {% if talkSlot.display_speaker == "yes" %}
         {% if talkSlot.talk_type == "keynote" %}
         <h2>Keynote Speaker</h2>
         {% elseif talkSlot.talk_type == "tutorial" %}
@@ -37,7 +38,7 @@
                 <div style="clear:both; height: 15px; border-bottom: 1px solid #000000;"></div>
             {% endif %}
         {% endfor %}
-
+    {% endif %}
 {% endfor %}
 <hr>
 

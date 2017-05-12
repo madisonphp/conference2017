@@ -326,21 +326,30 @@
 
             <div class="details-row">
                 <h6>
-                    <a href="/talks/TA1">{{ talks.TA1.title }} (Part 1)</a><br>
+                    <a href="/talks/T03">{{ talks.T03.title }} (Part 1)</a><br>
                     {% for speaker in talks.TA1.speaker %}
                     {{ speaker.name }}<br>
                     {% endfor %}
                 </h6>
-                <p>{{ talks.TA1.tagline }}</p>
+                <p>{{ talks.T03.tagline }}</p>
             </div>
             <div class="details-row">
                 <h6>
-                    <a href="/talks/TA2">{{ talks.TA2.title }} (Part 1)</a><br>
-                    {% for speaker in talks.TA2.speaker %}
+                    <a href="/talks/TA2">{{ talks.T04.title }} (Part 1)</a><br>
+                    {% for speaker in talks.T04.speaker %}
                     {{ speaker.name }}<br>
                     {% endfor %}
                 </h6>
-                <p>{{ talks.TA2.tagline }}</p>
+                <p>{{ talks.T04.tagline }}</p>
+            </div>
+            <div class="details-row">
+                <h6>
+                    <a href="/talks/TA2">{{ talks.T05.title }} (Part 1)</a><br>
+                    {% for speaker in talks.T05.speaker %}
+                    {{ speaker.name }}<br>
+                    {% endfor %}
+                </h6>
+                <p>{{ talks.T05.tagline }}</p>
             </div>
 
         </div>
@@ -383,26 +392,35 @@
         </div>
         <div class="details">
 
-            <div class="details-row">
-                <h6>
-                    <a href="/talks/TA1">{{ talks.TA1.title }} (Part 2)</a><br>
-                    {% for speaker in talks.TA1.speaker %}
-                    {{ speaker.name }}<br>
-                    {% endfor %}
-                </h6>
-                <p>{{ talks.TA1.tagline }}</p>
-            </div>
-            <div class="details-row">
-                <h6>
-                    <a href="/talks/TA2">{{ talks.TA2.title }} (Part 2)</a><br>
-                    {% for speaker in talks.TA2.speaker %}
-                    {{ speaker.name }}<br>
-                    {% endfor %}
-                </h6>
-                <p>{{ talks.TA2.tagline }}</p>
-            </div>
-
+            <h6>
+                <a href="/talks/T03">{{ talks.T03.title }} (Part 2)</a><br>
+                {% for speaker in talks.TA1.speaker %}
+                {{ speaker.name }}<br>
+                {% endfor %}
+            </h6>
+            <p>{{ talks.T03.tagline }}</p>
         </div>
+        <div class="details-row">
+            <h6>
+                <a href="/talks/TA2">{{ talks.T04.title }} (Part 2)</a><br>
+                {% for speaker in talks.T04.speaker %}
+                {{ speaker.name }}<br>
+                {% endfor %}
+            </h6>
+            <p>{{ talks.T04.tagline }}</p>
+        </div>
+        <div class="details-row">
+            <h6>
+                <a href="/talks/TA2">{{ talks.T05.title }} (Part 2)</a><br>
+                {% for speaker in talks.T05.speaker %}
+                {{ speaker.name }}<br>
+                {% endfor %}
+            </h6>
+            <p>{{ talks.T05.tagline }}</p>
+        </div>
+
+
+    </div>
         <div class="schedule-list clear"></div>
     </div>
     <div class="sixteen columns schedule-list even">
@@ -444,12 +462,12 @@
 
             <div class="details-row">
                 <h6>
-                    <a href="/talks/TB1">{{ talks.TB1.title }} (Part 1)</a><br>
-                    {% for speaker in talks.TB1.speaker %}
+                    <a href="/talks/TB1">{{ talks.T06.title }} (Part 1)</a><br>
+                    {% for speaker in talks.T06.speaker %}
                     {{ speaker.name }}<br>
                     {% endfor %}
                 </h6>
-                <p>{{ talks.TB1.tagline }}</p>
+                <p>{{ talks.T06.tagline }}</p>
             </div>
             <div class="details-row">
                 <h6>
