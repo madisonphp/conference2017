@@ -177,6 +177,21 @@ $talks = array(
         'talk_type' => 'tutorial',
         'display_speaker' => 'yes',
     ),
+    'T18' => array(
+        'speaker' => array (
+            array (
+                'name' => 'Andrea Skeries',
+                'img' => 'andrea_skeries.jpg',
+                'bio' => 'My mission is to bring awareness to designers, developers, and content writers that the work they do has a direct impact on people\'s lives. For more than a decade I\'ve worked with healthcare, hospitality, restaurants, non-profits, educational, and governmental organizations to provide accessible user experiences for their site visitors. As a Certified Professional in Accessibility Core Competencies (CPACC) through the IAAP, I educate the community with interactive training and building empathy in workshops and meetups.',
+                'twitter' => 'Artistic_Abode',
+            ),
+        ),
+        'title' => 'Guide to UX Testing with Assistive Technology',
+        'tagline' => '',
+        'talk_description' => 'An accessible website opens the door for millions more people to engage in your site content. In many cases, it is also a legal requirement. Learn testing techniques to check your website for ADA, Section 508 and WCAG 2.0 compliance. During this workshop you will hone your manual testing skills as well as learn about automated testing tools.',
+        'talk_type' => 'tutorial',
+        'display_speaker' => 'yes',
+    ),
     'T05' => array(
         'speaker' => array (
             array (
@@ -369,21 +384,6 @@ $talks = array(
         'title' => '10 Things You Didn\'t Know You Could Do With Composer',
         'tagline' => '',
         'talk_description' => 'Over the last five years, Composer has changed the way PHP developers work. It figures out which versions of our required libraries work together and installs everything for us, but if that\'s all you\'ve ever used Composer for, you\'re missing out. Come learn how and when to use validation, autoload overrides, and other features you\'ve never heard of.',
-        'talk_type' => 'talk',
-        'display_speaker' => 'yes',
-    ),
-    'T18' => array(
-        'speaker' => array (
-            array (
-                'name' => 'Andrea Skeries',
-                'img' => 'andrea_skeries.jpg',
-                'bio' => 'My mission is to bring awareness to designers, developers, and content writers that the work they do has a direct impact on people\'s lives. For more than a decade I\'ve worked with healthcare, hospitality, restaurants, non-profits, educational, and governmental organizations to provide accessible user experiences for their site visitors. As a Certified Professional in Accessibility Core Competencies (CPACC) through the IAAP, I educate the community with interactive training and building empathy in workshops and meetups.',
-                'twitter' => 'Artistic_Abode',
-            ),
-        ),
-        'title' => 'Guide to UX Testing with Assistive Technology',
-        'tagline' => '',
-        'talk_description' => 'An accessible website opens the door for millions more people to engage in your site content. In many cases, it is also a legal requirement. Learn testing techniques to check your website for ADA, Section 508 and WCAG 2.0 compliance. During this workshop you will hone your manual testing skills as well as learn about automated testing tools.',
         'talk_type' => 'talk',
         'display_speaker' => 'yes',
     ),
