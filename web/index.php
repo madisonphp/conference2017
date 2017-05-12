@@ -257,7 +257,7 @@ $talks = array(
             array (
                 'name' => 'Philippe Gamache',
                 'img' => 'philippe_gamache.jpg',
-                'bio' => 'Philippe Gamache contributes to PHP since 1999: promotion, participation at local user groups, organizing conferences, speaking at conferences and writing technical articles. He works especially with Symfony, specializing in security, code quality, and performance. Co-author of a PHP security book called â€œSÃ©curitÃ© PHP 5 et MySQLÂ 5.â€� He was a member of the executive board of Montrealâ€™s OWASP (Open Web Application Security Project) group for several years. Now a big part of his work itâ€™s to bring the PHP community to adopt new tools like kuzzle to add a real-time engine, subscription and notification mechanisms, geolocation/geofencing, advanced search features and more protocols to their applications.',
+                'bio' => 'Philippe Gamache contributes to PHP since 1999: promotion, participation at local user groups, organizing conferences, speaking at conferences and writing technical articles. He works especially with Symfony, specializing in security, code quality, and performance. Co-author of a PHP security book called "Sécurité PHP 5 et MySQL". He was a member of the executive board of Montrealâ€™s OWASP (Open Web Application Security Project) group for several years. Now a big part of his work itâ€™s to bring the PHP community to adopt new tools like kuzzle to add a real-time engine, subscription and notification mechanisms, geolocation/geofencing, advanced search features and more protocols to their applications.',
                 'twitter' => 'philoupedia',
             ),
         ),
@@ -317,7 +317,7 @@ $talks = array(
             array (
                 'name' => 'Stefany Newman',
                 'img' => 'stefany_newman.png',
-                'bio' => 'I am a programmer and a freelance web developer. In my spare time I love to read history, ride bikes, and play Go. I also love programming. I think it is the best thing in the world to do and to be. I love the freedom that being a programmer gives me. I live by the maxim "If you stop being better, you stop being good" so I try to better myself every day, in the programming field. I live in Arkansas with my lovely husband whom I like to annoy with constant web development chatter (he isn\’t annoyed, he just doesn\’t understand).',
+                'bio' => 'I am a programmer and a freelance web developer. In my spare time I love to read history, ride bikes, and play Go. I also love programming. I think it is the best thing in the world to do and to be. I love the freedom that being a programmer gives me. I live by the maxim "If you stop being better, you stop being good" so I try to better myself every day, in the programming field. I live in Arkansas with my lovely husband whom I like to annoy with constant web development chatter (he isn\'t annoyed, he just doesn\'t understand).',
                 'twitter' => '',
             ),
         ),
@@ -332,7 +332,7 @@ $talks = array(
             array (
                 'name' => 'Andrea Roenning',
                 'img' => 'andrea_roenning.jpg',
-                'bio' => 'Andrea Roenning is a Web Developer and Designer at Forte Research Systems in Madison, WI where she develops and manages several WordPress sites. After studying to be a journalist in college, Andrea started building websites in 2001. She became a full stack developer out of necessity as problems needed to be solved, thanks largely to the support of the web community. When she\'s not writing code, Andrea is probably outside, cross country skiing, hiking, cycling or running with her three-legged labrador. To learn more, visit a href="http://andrearoenning.com">http://andrearoenning.com</a>',
+                'bio' => 'Andrea Roenning is a Web Developer and Designer at Forte Research Systems in Madison, WI where she develops and manages several WordPress sites. After studying to be a journalist in college, Andrea started building websites in 2001. She became a full stack developer out of necessity as problems needed to be solved, thanks largely to the support of the web community. When she\'s not writing code, Andrea is probably outside, cross country skiing, hiking, cycling or running with her three-legged labrador. To learn more, visit <a href="http://andrearoenning.com">http://andrearoenning.com</a>',
                 'twitter' => ' andreaincode',
             ),
         ),
