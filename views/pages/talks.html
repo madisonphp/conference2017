@@ -8,7 +8,11 @@
 
 {% block content %}
 
-<p><a href="/schedule">View the Full Schedule</a></p>
+{% if schedule_set == 'yes' %}
+    <p><a href="/schedule">View the Full Schedule</a></p>
+{% elseif speakers_set == 'yes' %}
+    <p><a href="/speakers">View the List of Speakers</a></p>
+{% endif %}
 
 <h2>{{ talk.title }}</h2>
 
