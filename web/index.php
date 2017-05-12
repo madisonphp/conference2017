@@ -257,7 +257,7 @@ $talks = array(
             array (
                 'name' => 'Philippe Gamache',
                 'img' => 'philippe_gamache.jpg',
-                'bio' => 'Philippe Gamache contributes to PHP since 1999: promotion, participation at local user groups, organizing conferences, speaking at conferences and writing technical articles. He works especially with Symfony, specializing in security, code quality, and performance. Co-author of a PHP security book called "Sécurité PHP 5 et MySQL". He was a member of the executive board of Montrealâ€™s OWASP (Open Web Application Security Project) group for several years. Now a big part of his work itâ€™s to bring the PHP community to adopt new tools like kuzzle to add a real-time engine, subscription and notification mechanisms, geolocation/geofencing, advanced search features and more protocols to their applications.',
+                'bio' => 'Philippe Gamache contributes to PHP since 1999: promotion, participation at local user groups, organizing conferences, speaking at conferences and writing technical articles. He works especially with Symfony, specializing in security, code quality, and performance. Co-author of a PHP security book called "Sécurité PHP 5 et MySQL". He was a member of the executive board of Montreal\'s OWASP (Open Web Application Security Project) group for several years. Now a big part of his work is to help the PHP community to adopt new tools like kuzzle to add a real-time engine, subscription and notification mechanisms, geolocation/geofencing, advanced search features and more protocols to their applications.',
                 'twitter' => 'philoupedia',
             ),
         ),
