@@ -22,12 +22,12 @@ $app['conference_year'] = "2017";
 
 $published_menu = array(
     'Home' => '/',
+    'Tickets' => '/tickets/',
     'Schedule' => '/schedule/',
     'Speakers' => '/speakers/',
     'Venue/Hotel' => '/venue/',
     'Sponsors' => '/sponsors/',
     'What to Expect' => '/expect/',
-    'Tickets' => '/tickets/',
 //    'Call for Papers' => 'http://cfp.madisonphpconference.com',
     'Code of Conduct' => '/conduct/',
     'Contact' => 'http://contact.madisonphpconference.com'
