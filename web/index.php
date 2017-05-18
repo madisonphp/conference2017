@@ -22,7 +22,7 @@ $app['conference_year'] = "2017";
 
 $published_menu = array(
     'Home' => '/',
-//    'Schedule' => '/schedule/',
+    'Schedule' => '/schedule/',
     'Speakers' => '/speakers/',
     'Venue/Hotel' => '/venue/',
     'Sponsors' => '/sponsors/',
