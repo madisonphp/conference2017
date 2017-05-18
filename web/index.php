@@ -85,6 +85,13 @@ $sponsors = array(
             'thumbnail' => '/assets/images/sponsors/roberthalf_thumb.jpg',
             'twitter' => 'RobertHalfTech',
         ),
+        array(
+            'name' => 'Earthling Interactive',
+            'href' => 'https://earthlinginteractive.com/',
+            'img'  => '/assets/images/sponsors/earthling.png',
+            'thumbnail' => '/assets/images/sponsors/earthling_thumb.png',
+            'twitter' => 'WeAreEarthling',
+        ),
     ),
     'scholarship' => array(
         array(
