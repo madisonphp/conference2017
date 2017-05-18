@@ -110,6 +110,13 @@ $sponsors = array(
             'thumbnail' => '/assets/images/sponsors/phparch_thumb.png',
             'twitter' => 'phparch',
         ),
+        array(
+            'name' => 'MySQL',
+            'href' => 'http://www.mysql.com/',
+            'img'  => '/assets/images/sponsors/MySQL.png',
+            'thumbnail' => '/assets/images/sponsors/MySQL_thumb.png',
+            'twitter' => 'mysql',
+        ),
     ),
 );
 
