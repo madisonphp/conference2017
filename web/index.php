@@ -108,8 +108,8 @@ $sponsors = array(
 
 $app['sponsors'] = $sponsors;
 
-$schedule_set = 'no';
-$rooms_set= 'no';
+$schedule_set = 'yes';
+$rooms_set= 'yes';
 $speakers_set= 'yes';
 
 $app['schedule_set'] = $schedule_set;
@@ -126,7 +126,7 @@ $talks = array(
                 'twitter' => 'RodneyU215',
             ),
         ),
-        'title' => '',
+        'title' => 'TBD',
         'tagline' => '',
         'talk_description' => '',
         'talk_type' => 'keynote',
@@ -396,7 +396,7 @@ $talks = array(
                 'twitter' => 'elstamey',
             ),
         ),
-        'title' => 'Pulling up Your Legacy App by its Bootstraps!',
+        'title' => 'Pulling up Your Legacy App by Its Bootstraps!',
         'tagline' => '',
         'talk_description' => 'Your mission, should you choose to accept it, is to support an application built on an older framework. Refactoring isn\'t an easy option. The code is untested and nowhere near best practices or standards. In this session, we\'ll talk about strategies to incorporate modern PHP coding practices to add features and functionality and retiring the older code in pieces. We\'ll review specific examples and code from a real project where we bootstrapped a legacy application that needed a lot of help to become useful to its users and simpler for developers to maintain. We\'ll talk about strategies to leave the existing code in place until the new code is ready to replace it in whole or in pieces. Attendees will learn common terminology around legacy codebases, strategies for assessing the state of the legacy application before deciding how to proceed, and the tools that were crucial to our refactoring project. The specific tools are from the PHP ecosystem, but they are applicable in other legacy environments (testing packages, package manager, database migration tool, and dependency injection container tools) - general ideas of how the Events, CQRS, and DDD worked to help us improve our application',
         'talk_type' => 'talk',
@@ -441,7 +441,7 @@ $talks = array(
                 'twitter' => 'EliW',
             ),
         ),
-        'title' => 'PHP OOP: An Object Oriented Programming Primer ',
+        'title' => 'PHP OOP: An Object-oriented Programming Primer ',
         'tagline' => '',
         'talk_description' => 'Whether you are a brand new developer or an experienced coder - the PHP object model can hold some mysteries that are worth exploring. This session will briefly cover the basics of working with Objects in PHP, then dive quickly through inheritance, abstracts, interfaces, traits, late static binding, magic methods, namespaces and maybe even reflection. It\'s a lot to cover to make sure to show up with your eyes open and ready to move quickly!',
         'talk_type' => 'talk',
