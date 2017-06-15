@@ -62,6 +62,13 @@ $sponsors = array(
             'thumbnail' => '/assets/images/sponsors/madisoncollege_thumb.jpg',
             'twitter' => 'MadisonIT',
         ),
+        array(
+            'name' => 'Web Courseworks',
+            'href' => 'http://www.webcourseworks.com',
+            'img'  => '/assets/images/sponsors/webcourseworks.png',
+            'thumbnail' => '/assets/images/sponsors/webcourseworks_thumb.png',
+            'twitter' => 'WebCourseworks',
+        ),
     ),
     'bronze' => array(
         array(
