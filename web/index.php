@@ -369,7 +369,7 @@ $talks = array(
                 'name' => 'Andrea Roenning',
                 'img' => 'andrea_roenning.jpg',
                 'bio' => 'Andrea Roenning is a Web Developer and Designer at Forte Research Systems in Madison, WI where she develops and manages several WordPress sites. After studying to be a journalist in college, Andrea started building websites in 2001. She became a full stack developer out of necessity as problems needed to be solved, thanks largely to the support of the web community. When she\'s not writing code, Andrea is probably outside, cross country skiing, hiking, cycling or running with her three-legged labrador. To learn more, visit <a href="http://andrearoenning.com">http://andrearoenning.com</a>',
-                'twitter' => ' andreaincode',
+                'twitter' => 'andreaincode',
             ),
         ),
         'title' => 'Building Unique Templates with Custom Post Types in WordPress',
