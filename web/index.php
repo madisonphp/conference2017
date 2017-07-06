@@ -353,7 +353,7 @@ $talks = array(
             array (
                 'name' => 'Stefany Newman',
                 'img' => 'stefany_newman.png',
-                'bio' => 'I am a programmer and a freelance web developer. In my spare time I love to read history, ride bikes, and play Go. I also love programming. I think it is the best thing in the world to do and to be. I love the freedom that being a programmer gives me. I live by the maxim "If you stop being better, you stop being good" so I try to better myself every day, in the programming field. I live in Arkansas with my lovely husband whom I like to annoy with constant web development chatter (he isn\'t annoyed, he just doesn\'t understand).',
+                'bio' => 'I am a programmer and a freelance web developer. In my spare time I love to read history, ride bikes, and play Go. I also love programming. I think it is the best thing in the world to do and to be. I love the freedom that being a programmer gives me. I live by the maxim "If you stop being better, you stop being good" so I try to better myself every day, in the programming field. I live in Arkansas with my lovely husband whom I like to annoy with constant web development chatter (he isn\'t annoyed, he just doesn\'t understand). My personal website is <a href="http://www.StefanyNewman.info">www.StefanyNewman.info</a>.',
                 'twitter' => '',
             ),
         ),
