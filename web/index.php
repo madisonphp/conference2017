@@ -147,7 +147,7 @@ $talks = array(
                 'twitter' => 'RodneyU215',
             ),
         ),
-        'title' => 'TBD',
+        'title' => 'Engineering a Successful Career Through Failure!',
         'tagline' => '',
         'talk_description' => '',
         'talk_type' => 'keynote',
