@@ -303,6 +303,21 @@ $talks = array(
         'talk_type' => 'talk',
         'display_speaker' => 'yes',
     ),
+    'T16' => array(
+        'speaker' => array (
+            array (
+                'name' => 'Daniel Greig',
+                'img' => 'daniel-greig.jpg',
+                'bio' => 'Daniel Greig is a team and technical lead at Earthling Interactive. He has worked in a variety of languages and systems over the last 15 years.',
+                'twitter' => '',
+            ),
+        ),
+        'title' => 'Creating a Local Dev Environment with Vagrant and Puppet',
+        'tagline' => '',
+        'talk_description' => 'Local environments suffer from multiple problems. Different versions of PHP, base OS differences, and configuration differences. Those differences could just be between you and the production server, or even between you and your co-workers. These differences can cause frustration and panic when you push code to production and find out that date() works differently between the Windows version of PHP and the Linux version. What if I were to tell you that we could avoid all those hassles? By the end of this talk, you should have a good understanding of why we would want to do this and how you would get started on this with your own projects.',
+        'talk_type' => 'talk',
+        'display_speaker' => 'yes',
+    ),
     'T11' => array(
         'speaker' => array (
             array (
@@ -348,6 +363,21 @@ $talks = array(
         'talk_type' => 'talk',
         'display_speaker' => 'yes',
     ),
+    'T22' => array(
+        'speaker' => array (
+            array (
+                'name' => 'Oscar Merida',
+                'img' => 'oscar-merida.jpg',
+                'bio' => 'Oscar still remembers downloading an early version of the Apache HTTP server at the end of 1995, and promptly asking "Ok, what\'s this good for?" He started learning PHP in 2000 and hasn\'t stopped since. He\'s worked with Drupal, WordPress, Zend Framework, Silex, and bespoke PHP, to name a few. Currently, he\'s the Editor-in-chief at php[architect], a monthly magazine for PHP programmers.',
+                'twitter' => 'omerida',
+            ),
+        ),
+        'title' => 'PHP OOP: An Object-oriented Programming Primer ',
+        'tagline' => '',
+        'talk_description' => 'Whether you are a brand new developer or an experienced coder - the PHP object model can hold some mysteries that are worth exploring. This session will briefly cover the basics of working with Objects in PHP, then dive quickly through inheritance, abstracts, interfaces, traits, late static binding, magic methods, namespaces and maybe even reflection. It\'s a lot to cover to make sure to show up with your eyes open and ready to move quickly!',
+        'talk_type' => 'talk',
+        'display_speaker' => 'yes',
+    ),
     'T14' => array(
         'speaker' => array (
             array (
@@ -375,21 +405,6 @@ $talks = array(
         'title' => 'Building Unique Templates with Custom Post Types in WordPress',
         'tagline' => '',
         'talk_description' => 'Custom Post Types help extend WordPress\'s super powers to provide a more versatile content management system. They help create a WordPress administrator experience that makes it easy to add and edit repetitive content and gives you flexibility to create unique web pages to fit your, or your customers\' unique needs. This talk will cover creating Custom Post Types and how to create a WordPress template page to display their content.',
-        'talk_type' => 'talk',
-        'display_speaker' => 'yes',
-    ),
-    'T16' => array(
-        'speaker' => array (
-            array (
-                'name' => 'Jason Rogers',
-                'img' => 'jason_rogers.jpg',
-                'bio' => 'Jason Rogers is a Senior Software Engineer at AddThis, now part of Oracle Data Cloud. He has over 10 years of experience in web development, working across the stack in JavaScript and (occasionally) PHP and Java. In his professional work, he applies his passion for performance and clean code to the AddThis Publisher Tools (AddThis Client and AddThis Dashboard) and to FluxThis, AddThis\' open source implementation of Facebook\'s "Flux" architecture pattern. Outside of work, you\'ll likely find Jason working on side projects, philosophizing (he has a Ph.D. in philosophy from the University of Rochester), spending time with his wife and son, or attempting to lift weights. ',
-                'twitter' => 'jmrog',
-            ),
-        ),
-        'title' => 'Increasing Performance and Productivity with PHP and Server-side React.js',
-        'tagline' => '',
-        'talk_description' => 'It\'s fairly well-known that React.js can be a great tool for building performant, dynamic user interfaces with _client-side_ JavaScript. What\'s less well-known is that it can also be a great tool for building performant, dynamic (and SEO-friendly!) user interfaces rendered and served _server-side_ via PHP. This talk will cover two different ways of integrating server-side-rendered React with PHP, offering strategies for combining these tools to increase performance, SEO, and developer productivity. To see the real-world applicability of these strategies, we\'ll talk about how AddThis used them to deliver an optimized experience for the over 2 billion users it serves monthly. By the end of the talk, you should feel confident that you too can use these techniques to seamlessly integrate React.js with the PHP you already employ.',
         'talk_type' => 'talk',
         'display_speaker' => 'yes',
     ),
@@ -450,21 +465,6 @@ $talks = array(
         'title' => 'The Road to PHP 7.1',
         'tagline' => '',
         'talk_description' => 'In December 2015, PHP 7.0 was released, marking a new milestone for PHP and web application developers. Looking at the changelog and removed functions, we thought all was going to be easy to migrate to PHP 7.0. Unfortunately, many of the extensions and tools we use weren\'t ready yet. In December 2016, PHP 7.1 was released and the urgency to update became real as PHP 5.6 was nearing end-of-life. In this talk, I describe the analysis and the challenges we faced migrating towards PHP 7.1 so you can learn how to defeat those challenges if you plan to migrate too.',
-        'talk_type' => 'talk',
-        'display_speaker' => 'yes',
-    ),
-    'T22' => array(
-        'speaker' => array (
-            array (
-                'name' => 'Eli White',
-                'img' => 'eli_wihte.jpg',
-                'bio' => 'Eli has been building Web Applications for 20 years and fell in love with PHP the day that PHP 4 was released. Since then he\'s been a strong advocate for PHP and used it in every project he\'s worked on. He is currently the Vice President of One for All Events LLC, and Conference Chair for php[architect]. He is a strong advocate for "Just getting it done" when it comes to coding, and speaks at numerous conferences each year.',
-                'twitter' => 'EliW',
-            ),
-        ),
-        'title' => 'PHP OOP: An Object-oriented Programming Primer ',
-        'tagline' => '',
-        'talk_description' => 'Whether you are a brand new developer or an experienced coder - the PHP object model can hold some mysteries that are worth exploring. This session will briefly cover the basics of working with Objects in PHP, then dive quickly through inheritance, abstracts, interfaces, traits, late static binding, magic methods, namespaces and maybe even reflection. It\'s a lot to cover to make sure to show up with your eyes open and ready to move quickly!',
         'talk_type' => 'talk',
         'display_speaker' => 'yes',
     ),
