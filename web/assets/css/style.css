@@ -141,3 +141,8 @@ table.schedule td a {
 .btn-highlight {
     border: 2px solid #0000FF;
 }
+.highlight-box {
+    margin: 20px;
+    padding: 5px;
+    border: 2px solid #b70610;
+}
