@@ -149,7 +149,7 @@ $talks = array(
         ),
         'title' => 'Engineering a Successful Career Through Failure!',
         'tagline' => '',
-        'talk_description' => '',
+        'talk_description' => 'A lot can be said about my journey in tech thus far! To most people, my background and educational history leave much to be desired. I started from very humble beginnings. In an unlikely story, I went from working at a glass factory to becoming a Software Engineer.<br><br>In this session, I’m going to share a little bit about my life and what I’ve learned over the years. I’m going to talk about where I started, some of my biggest failures, as well as how I used a lot of failure and soft skills to catapult me into the life I’m proud to be living right now. I’m living my dreams! I am successful in every way that matters to me. My family is happy, I’m building wealth, I’m still learning through failure, and most importantly, I’m loving life!',
         'talk_type' => 'keynote',
         'display_speaker' => 'yes',
     ),
