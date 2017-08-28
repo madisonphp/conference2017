@@ -99,6 +99,13 @@ $sponsors = array(
             'thumbnail' => '/assets/images/sponsors/earthling_thumb.png',
             'twitter' => 'WeAreEarthling',
         ),
+        array(
+            'name' => 'SiteGround',
+            'href' => 'http://www.siteground.com',
+            'img'  => '/assets/images/sponsors/siteground.png',
+            'thumbnail' => '/assets/images/sponsors/siteground_thumb.png',
+            'twitter' => 'SiteGround',
+        ),
     ),
     'scholarship' => array(
         array(
