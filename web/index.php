@@ -330,7 +330,7 @@ $talks = array(
             array (
                 'name' => 'Julka Grodel',
                 'img' => 'julka_grodel.jpg',
-                'bio' => 'Julka Grodel is a Senior Software Engineer at AddThis and has worked professionally in web development for over 10 years. She is passionate about writing easily maintainable and extendable code and is on a mission to make it simple to use AddThis\' social tools on single page apps and within a dynamic DOM. Julka spends most of her time on open source projects integrating AddThis tools for various JavaScript frameworks &amp; content management systems. When not working, she spends her time volunteering with the Junior League, in a pilates studio, or doting over her blind cat Batman and his BFF Robin.',
+                'bio' => 'Julka Grodel is a Principal Software Engineer at Framebridge, a DC startup disrupting the custom framing market. She is passionate about writing easily maintainable and extendable code and has worked professionally in web development for over a decade. When not working on code empowering Framebridge customers to frame everything they love, she spends her time volunteering on literacy projects with the Junior League, in a pilates studio, or doting over her blind cat Batman and his BFF Robin.',
                 'twitter' => 'jgrodel',
             ),
         ),
