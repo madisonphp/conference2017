@@ -201,7 +201,7 @@ $talks = array(
         ),
         'title' => 'Hack Your Home With a Raspberry Pi',
         'tagline' => '',
-        'talk_description' => 'Do you ever wonder what\'s happening at your home when you\'re not there? Wouldn\'t it be fun to get a text message when your dryer is done? Using a LAMP stack on a device smaller than a credit card, you will learn to connect sensors to create web-enabled devices to monitor the temperature around your house and more! In this tutorial, you will do all of this on a Raspberry Pi Zero that you get to keep!<br><br><div class="highlight-box" style="text-align: center;"><h3>Because of the hardware needed (which you get to keep), there is an additional $40 fee to attend this tutorial which must be purchased after you buy your conference ticket.</h3><br><a href="https://plasso.com/s/K0EOfozoih" class="plo-button btn-red">Buy Now</a><br><br></div><br>',
+        'talk_description' => 'Do you ever wonder what\'s happening at your home when you\'re not there? Wouldn\'t it be fun to get a text message when your dryer is done? Using a LAMP stack on a device smaller than a credit card, you will learn to connect sensors to create web-enabled devices to monitor the temperature around your house and more! In this tutorial, you will do all of this on a Raspberry Pi Zero that you get to keep!<br><br><div class="highlight-box" style="text-align: center;"><h3>Because of the hardware needed (which you get to keep), there is an additional $40 fee to attend this tutorial which must be purchased after you buy your conference ticket.</h3><br><span class="plo-button btn-red">Sold Out</span><br><br></div><br>',
         'talk_type' => 'tutorial',
         'display_speaker' => 'yes',
     ),
